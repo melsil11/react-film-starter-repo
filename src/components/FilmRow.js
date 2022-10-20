@@ -8,7 +8,7 @@ class FilmRow extends Component{
             <img src={`https://image.tmdb.org/t/p/w780/}${this.props.poster_path}`}alt="" /> 
             <div className="film-summary">
             <h1>{this.props.film.title}</h1>
-            <p>YEAR</p>
+            <p>{this.props.film.release_date.split('')}</p>
             </div>
             </div>   
         )
