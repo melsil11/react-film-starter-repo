@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import FilmList from './components/FilmList'
 import Details from './components/Details'
 import TMDB from './TMDB';
+import Poster from './components/Poster'
 
 
 
